@@ -1,6 +1,6 @@
 FROM reaitten/tgtlg:latest
 
-RUN apt-get install megatools -y
+RUN apt install megatools -y
 
 WORKDIR /app
 
