@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+RUN apt-get update && apt upgrade -y && apt-get install sudo apt-utils -y
+
 RUN apt install megatools -y
 
 WORKDIR /app
