@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+RUN apt-get install megatools -y
+
 WORKDIR /app
 RUN chmod +x /app
 
